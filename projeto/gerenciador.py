@@ -10,7 +10,7 @@ def ver_tarefas(tarefas):
         status = "✓" if tarefa["completada"] else ""
         nome_tarefa = tarefa["tarefa"]
         print(f"{index}. [{status}] {nome_tarefa}")
-        return
+    return
 
 def atualizar_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
     indice_tarefa_ajustado = indice_tarefa - 1
